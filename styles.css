@@ -1,0 +1,48 @@
+.header {
+  margin-top: 8vh;
+  text-align: center;
+  padding-right: 1.8rem;
+  font-family: 'Caveat', cursive;
+  font-size: 48pt;
+}
+
+.center {
+  justify-content: center;
+
+}
+
+.post-it {
+  margin: auto;
+  box-shadow: 4px 12px 12px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 2rem;
+  font-size: 52pt;
+  opacity: 0.3;
+}
+
+.btn:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  color: #555555;
+  font-family: 'Caveat', cursive;
+  text-decoration: none !important;
+  text-align: right;
+  letter-spacing: 0em;
+  font-size: 18pt;
+  padding-right: 2rem;
+  padding-bottom: 0.8rem;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer:hover {
+  color: #888888;
+}
