@@ -4,7 +4,7 @@ drawing.onload = function () {
     _img.src = this.src;
 }
 
-let latest_img = 9;
+let latest_img = 11;
 let index = latest_img; //latest image
 
 function setImage() {
