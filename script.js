@@ -17,6 +17,9 @@ function setImage() {
 
     index = Math.min(Math.max(0, index), latest_img);
 
+    document.getElementById('btn-right').style.visibility = ((index === latest_img) ? "hidden" : "visible");
+    document.getElementById('btn-left').style.visibility = ((index === 0) ? "hidden" : "visible");
+
     drawing.src = 'img/' + index + '.jpg';
 }
 
